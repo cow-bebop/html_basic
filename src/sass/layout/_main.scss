@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+@import "../foundation/_mediaqueries";
+
+
+/* layout
+===============================================================*/
+.l-outer-width {
+  max-width: 1280px;
+  padding: 0 10px;
+  margin: 0 auto;
+  position: relative;
+  box-sizing: content-box;
+}
+
+.l-inner-width {
+  max-width: 980px;
+  padding: 0 10px;
+  margin: 0 auto;
+  position: relative;
+  box-sizing: content-box;
+}
+
+/* list
+===============================================================*/
+.l-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.l-list.l-list--border {
+  border-bottom: 1px solid #fff;
+  border-top: 1px solid #fff;
+}

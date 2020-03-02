@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+@import "../../foundation/_mediaqueries";
+
+
+/* nav
+===============================================================*/
+
+.c-nav__item {
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 35px;
+  padding-bottom: 10px;
+}
+
+.c-nav__item + .c-nav__item {
+  padding-left: 40px;
+}

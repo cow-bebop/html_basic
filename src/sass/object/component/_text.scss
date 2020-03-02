@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+@import "../../foundation/_mediaqueries";
+
+
+
+.c-secHeading {
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: .5;
+}
+
+.c-secHeading--white {
+  color: #fff;
+}
+
+.c-secHeading--blue {
+  color: #1e73a0;
+}
+
+.c-secSubHeading {
+  font-size: 24px;
+  text-align: center;
+  line-height: 2.5em;
+  font-weight: bold;
+  @include tab {
+    font-size: 18px;
+    line-height: 2.5em;
+    padding: 2em 0;
+  }
+  @include sp {
+    line-height: 2em;
+    padding: 1em 0;
+  }
+}

@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+@import "../../foundation/_mediaqueries";
+
+
+/* btn
+===============================================================*/
+.c-btn {
+  color: #fff;
+  font-size: 16px;
+  background: #c7b04e;
+}
+
+.c-btn:hover {
+cursor: pointer;
+}
+
+.c-btn--primary {
+  font-weight: bold;
+}
+
+.c-btn.c-btn--list {
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+.c-btn__arrow {
+  position: relative;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+.c-btn__arrow.c-btn__arrow-middle:before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  content: "";
+  vertical-align: middle;
+  right: -360px;
+  width: 5px;
+  height: 5px;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
